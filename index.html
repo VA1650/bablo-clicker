@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Bablo Clicker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="left">
+
+    <div class="top">
+        💰 <span id="money">0</span> | 🏦 <span id="bank">0</span>
+    </div>
+
+    <div class="stats">
+        income: <span id="income">0</span>/sec | click: <span id="clickVal">0</span>
+    </div>
+
+    <div class="stats">
+        💎 prestige: <span id="prestige">0</span>
+    </div>
+
+    <div id="eventLog"></div>
+
+    <button id="clickBtn">💸 CLICK</button>
+
+</div>
+
+<div class="right">
+
+<h3>Upgrades</h3>
+
+<div class="upgrade" id="buyClick">
+💪 Click +1 — <span id="cCost"></span>
+</div>
+
+<div class="upgrade" id="buyAuto">
+🤖 +1 CPS — <span id="aCost"></span>
+</div>
+
+<div class="upgrade" id="buyMega">
+🚀 +5 CPS — <span id="mCost"></span>
+</div>
+
+<div class="upgrade" id="bankBtn">🏦 Bank (+1000)</div>
+<div class="upgrade" id="withdrawBtn">💸 Withdraw</div>
+<div class="upgrade" id="prestigeBtn">♻ Prestige — 1000</div>
+
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>

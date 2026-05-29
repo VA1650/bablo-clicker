@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:#0b0b0b;
+    color:white;
+    display:flex;
+}
+
+.left{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+}
+
+.right{
+    width:420px;
+    background:#151515;
+    padding:15px;
+}
+
+button{
+    font-size:30px;
+    padding:20px 40px;
+    border:none;
+    border-radius:12px;
+    cursor:pointer;
+}
+
+.upgrade{
+    background:#222;
+    padding:10px;
+    margin:8px 0;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+#eventLog{
+    height:20px;
+    opacity:0.8;
+}
